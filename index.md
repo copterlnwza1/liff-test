@@ -10,7 +10,8 @@
   <script> 
     async function main() {
       await liff.init({ liffid: "1656955999-BQ48GxYa" }) 
-      await liff.share TargetPicker([
+      await liff.share TargetPicker(
+    [
     {
     type: "flex",
     altText: "Flex Message from Share Target Picker", 
