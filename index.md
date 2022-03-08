@@ -5,7 +5,7 @@
 <title>LIFF - LINE Front-end Framework</title> 
 </head> 
 <body>
-  <script src="https://static.line-scdn.net/liff/edge/versions/2.6.0/sdk.js"></script>
+  <script src="https://static.line-scdn.net/liff/edge/versions/2.9.0/sdk.js"></script>
   <script> 
     async function main() {
       await liff.init({ liffid: "1656955999-BQ48GxYa" }) 
