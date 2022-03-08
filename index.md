@@ -8,25 +8,20 @@
 <body>
   <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
   <script> 
-      async function main() {
-await liff.init({ liffid: "1656955999-BQ48GxYa" }) 
-await liff. share TargetPicker([
+    async function main() {
+      await liff.init({ liffid: "1656955999-BQ48GxYa" }) 
+      await liff.share TargetPicker([
+    {
     type: "flex",
     altText: "Flex Message from Share Target Picker", 
     contents: {
-    "messages":[
-{
-  "type": "flex",
-  "altText": "โอนให้แล้วนะ 50.- ",
-  "contents": {
   "type": "bubble",
   "size": "giga",
   "hero": {
     "type": "image",
-    "url": "https://sv1.picz.in.th/images/2022/03/07/rsWsNn.jpg",
+    "url": "https://sv1.picz.in.th/images/2022/03/08/rCClfZ.jpg",
     "size": "full",
     "aspectRatio": "1:1",
-    "aspectMode": "cover",
     "action": {
       "type": "uri",
       "uri": "https://lin.ee/APJg1NR"
@@ -36,7 +31,7 @@ await liff. share TargetPicker([
   "footer": {
     "type": "box",
     "layout": "vertical",
-    "spacing": "md",
+    "spacing": "lg",
     "contents": [
       {
         "type": "button",
@@ -47,43 +42,51 @@ await liff. share TargetPicker([
           "label": "รับเครดิตฟรี",
           "uri": "https://lin.ee/APJg1NR"
         },
-        "color": "#dc3545",
-        "margin": "sm",
+        "margin": "md",
         "gravity": "center",
-        "offsetBottom": "none"
+        "color": "#FAC101"
       },
       {
         "type": "button",
         "action": {
           "type": "uri",
           "label": "ส่งให้เพื่อน",
-          "uri": "https://social-plugins.line.me/lineit/share?url=https://lin.ee/APJg1NR"
+          "uri": "https://liff.line.me/1656955999-BQ48GxYa"
         },
-        "color": "#dc3545",
-        "style": "primary"
+        "color": "#FAC101",
+        "style": "primary",
+        "gravity": "center",
+        "margin": "md",
+        "height": "md"
       },
       {
-        "type": "spacer",  
+        "type": "spacer",
         "size": "md"
       }
     ],
     "flex": 0,
-    "margin": "none"
+    "margin": "none",
+    "backgroundColor": "#A71F0C",
+    "borderWidth": "none",
+    "borderColor": "#FAC101",
+    "background": {
+      "type": "linearGradient",
+      "startColor": "#C61B11",
+      "endColor": "#C61B11",
+      "angle": "0deg"
+    }
   },
   "styles": {
     "footer": {
-      "separator": true 
+      "separator": true
     }
   }
 }
-}
-    ]
-}
-}
-    ])
-    liff.closeWindow()
     }
-main() 
+   ])
+   liff.closeWindow()
+ }
+ main() 
 </scripti>
 </body> 
 </html>
