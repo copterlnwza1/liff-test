@@ -2,15 +2,16 @@
 <html> 
 <head> 
   <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0,viewport-fit=cover">
 <title>LIFF - LINE Front-end Framework</title> 
 </head> 
 <body>
-  <script src="https://static.line-scdn.net/liff/edge/versions/2.9.0/sdk.js"></script>
+  <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
   <script> 
     async function main() {
       await liff.init({ liffid: "1656955999-BQ48GxYa" }) 
-      await liff.shareTargetPicker([
+      await liff.share TargetPicker(
+[
     {
     type: "flex",
     altText: "Flex Message from Share Target Picker", 
