@@ -1,7 +1,8 @@
+<!DOCTYPE html> 
 <html> 
 <head> 
   <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0,viewport-fit=cover">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
 <title>LIFF - LINE Front-end Framework</title> 
 </head> 
 <body>
@@ -9,8 +10,7 @@
   <script> 
     async function main() {
       await liff.init({ liffid: "1656955999-BQ48GxYa" }) 
-      await liff.share TargetPicker(
-    [
+      await liff.shareTargetPicker([
     {
     type: "flex",
     altText: "Flex Message from Share Target Picker", 
@@ -87,6 +87,6 @@
    liff.closeWindow()
  }
  main() 
-</scripti>
+</script>
 </body> 
 </html>
