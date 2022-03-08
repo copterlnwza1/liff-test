@@ -9,7 +9,7 @@
   <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
   <script> 
       async function main() {
-await liff.init({ liffid: "1653575653-OmBzOyAJ" }) 
+await liff.init({ liffid: "1656955999-BQ48GxYa" }) 
 await liff. share TargetPicker([
     type: "flex",
     altText: "Flex Message from Share Target Picker", 
